@@ -18,5 +18,6 @@ while True:
     else:
         print("same time") #condition not gonna work cus it icludes microseconds  so it never true 
 
-        time.sleep()
+        time.sleep(1)
+
 
