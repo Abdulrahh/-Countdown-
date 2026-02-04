@@ -1,3 +1,6 @@
+#upadted version
+# reliable  and counts in real time 
+#ensure target not missed 
 import datetime
 import time
 
@@ -16,4 +19,5 @@ while True:
     minutes, seconds =divmod(rem, 60)
     
     print(F"{days}d, {hours}h, {minutes}m, {seconds}s")
+
     time.sleep(1)
