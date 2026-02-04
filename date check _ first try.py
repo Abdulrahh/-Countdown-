@@ -2,7 +2,7 @@
 # only run if u have a good system
 import datetime
 
-target_datetime = datetime.datetime(31000, 2, 4, 12, 14, 0) 
+target_datetime = datetime.datetime(9999, 2, 4, 12, 14, 0) 
 
 while True:
     current_datetime = datetime.datetime.now()
@@ -19,5 +19,6 @@ while True:
         print("same time") #condition not gonna work cus it icludes microseconds  so it never true 
 
         time.sleep(1)
+
 
 
